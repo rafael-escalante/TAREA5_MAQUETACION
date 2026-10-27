@@ -1,0 +1,263 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  color: #333;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.centrar{
+  text-align: center;
+}
+.margen{
+  border: 1px red solid;
+}
+.linea_rosa{
+  background-color: #ff3281;
+  height: 5px;
+  display: block;
+}
+.contenedor_cabecera{
+  background-color: #fff9f1;
+  padding-bottom: 20px;
+}
+.contenedor_cabecera hr{
+  display: block;
+}
+.logo_spa{
+  width: 79%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 70px;
+}
+.logo_spa img{
+  height: 80%;
+  vertical-align: middle;
+}
+
+.contenedor_redes{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 70px;
+  text-align: center;
+  padding-top: 18px;
+}
+.contenedor_redes a{
+  height: 25px;
+  width: 25px;
+  margin: 2px;
+  display: inline-block;
+}
+.contenedor_redes img{
+  height: 100%;
+}
+.menu_cabecera{
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: 2px #333 solid;
+}
+.menu_cabecera a{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+.margen_izquierdo{
+  margin-right: 80px;
+}
+.contenedor_promociones{
+  background-image: url(imagenes/fondopiedras.jpg);
+  height: 250px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 100px 50px 100px;
+}
+.contenedor_promociones h2{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.contenedor_promociones p{
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  padding-bottom: 25px;
+
+}
+.boton_rosado{
+  background-color: #ff3281;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 9px;
+  margin-right: 10px;
+}
+.boton_transparente{
+  background-color: transparent;
+  border: 1px solid #ff3281;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 9px;
+}
+.contenedor_productos{
+}
+.productos{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.velas{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.productos h3{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.productos p{
+  font-size: 8px;
+  line-height: 19px;
+}
+.velas img{
+  width: 75%;
+}
+.contenedor_talento{
+  background-color: #fff9f1;
+  padding-bottom: 10px;
+}
+.contenedor_talento h3{
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+}
+.contenedor_cremas{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contenedor_puesto{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+.contenedor_puesto h4{
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.contenedor_puesto p{
+  font-size: 10px;
+  line-height: 15px;
+  margin-bottom: 7px;
+  color: gray;
+  font-weight: 100;
+}
+.contenedor_cremas img{
+  width: 100%;
+  border-radius: 10px;
+}
+.contenedor_noticias{
+  padding-top: 15px;
+}
+.contenedor_formulario{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contenedor_formulario h2{
+  font-size: 18px;
+}
+.contenedor_formulario p{
+  font-size: 10px;
+}
+.contacto{
+  padding-top: 10px;
+  padding-bottom: 2px;
+  font-size: 10px;
+}
+.contacto2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+.texto_rosa{
+  color: #ff3281;
+}
+.contenedor_instalaciones{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+.contenedor_formulario form{
+  border: #ff3281 3px solid;
+  padding: 2px 10px 10px 5px;
+}
+.contenedor_formulario form label{
+  font-size: 10px;
+  font-weight: bold;
+}
+.contenedor_formulario form input{
+  background-color: white;
+  border: gainsboro 2px solid;
+  margin-top: 10px;
+  padding: 4px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 28px;
+}
+.contenedor_formulario form input:focus{
+  background-color: aliceblue;
+}
+.contenedor_formulario form button{
+  background-color: black;
+  margin-top: 10px;
+  color: white;
+  font-size: 10px;
+  padding: 6px 35px;
+}
+.contenedor_instalaciones h3{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.contenedor_instalaciones iframe{
+  height: 200px;
+}
+.contenedor_final{
+  background-color: #fff9f1;
+}
+.ultima_imagen{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ultima_imagen img{
+  width: 100%;
+}
+.nombre{
+  width: 79%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 250px;
+  font-size: 12px;
+  color: #ff3281;
+  font-weight: bold
+}
